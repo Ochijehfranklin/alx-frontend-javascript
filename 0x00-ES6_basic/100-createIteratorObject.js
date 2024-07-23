@@ -1,0 +1,13 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable */
+
+export default function createIteratorObject(report) {
+    let allEmployees = [];
+    for (const item of Object.values(report.allEmployees)) {
+        allEmployees = [
+          ...allEmployees,
+          ...item,
+        ];
+      }
+      return allEmployees;
+}
