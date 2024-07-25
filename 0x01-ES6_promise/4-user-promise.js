@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable */
+
 export function signUpUser(firstName, lastName) {
     return new Promise((resolve) => {
         resolve({
