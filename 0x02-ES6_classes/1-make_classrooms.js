@@ -1,3 +1,6 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable */
+
 import ClassRoom from './0-classroom';
 
 export default function initializeRooms(){
